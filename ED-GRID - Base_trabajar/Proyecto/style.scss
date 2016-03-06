@@ -1,0 +1,61 @@
+@import "../ed-grid";
+@import "tema/box";
+
+html, body{
+	background-color: #282828;
+	height:100%;
+}
+
+header{
+	background-color: #282828;
+	text-align: center;
+	color: #FFFFFF;
+	.logo{
+		padding: 15px;
+	}
+}
+
+.home{
+	background: #FFFFFF url('assets/animales.jpg') no-repeat center center fixed;
+	height: 100%;
+	text-transform: uppercase;
+}
+
+#section{
+	margin-top: 13%;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+footer{
+	margin-top: 7.8%;
+	background-color: #282828;
+	padding: 31px;
+	color: #FFFFFF;
+	a{
+		color: #FFFFFF;
+	}
+}
+
+.button{
+	background-color: #FFB400;
+	border-bottom: 5px solid #E49100;
+	padding: 8px 10;
+}
+
+.button:hover{
+	background-color: #E49100;
+}
+
+.titulo_main{
+	font-size: 40px;
+}
+
+#navegacion{
+	li{
+		padding: 5px;
+		margin: 0 15px;
+		font-weight: 700;
+		color: #BFBDBD;
+	}
+}
