@@ -25,6 +25,11 @@ a {
   clases ed-container y ed-item. Se pueden seguir usando
   las clases .grupo y .caja pero se desaconseja (en la v2 desaparecer├ín)
 */
+li:hover{
+  background: red;
+  cursor: pointer;
+
+}
 .grupo,
 .ed-container {
   display: flex;
